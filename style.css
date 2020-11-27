@@ -9,6 +9,10 @@ body{
     font-family: 'Montserrat';
 }
 
+hr{
+   margin: 2rem 0rem;
+}
+
 /*containers*/
 
 .container{
@@ -38,4 +42,15 @@ body{
     border: 1px solid var(--primary-color);
     color:var(--primary-color);
 
+}
+
+/* for the list items */
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display:inline;
+    padding:0rem 0.5rem;
 }
