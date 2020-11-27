@@ -3,6 +3,7 @@
 :root{
     --primary-color:#60A5FA;
     --dary-grey:#6B7280;
+    --off-white:#F3F4F6;
 }
 
 
@@ -11,7 +12,8 @@ body{
 }
 
 hr{
-   margin: 2rem 0rem;
+   margin: 2rem 1rem;
+   color:var(--dary-grey);
 }
 
 /*containers*/
@@ -97,4 +99,20 @@ hr{
 .hero .hero-heading{
     color: var(--dary-grey);
     text-align:center;
+    padding-top: 1rem;
+}
+
+.hero .hero-heading .heading-inverted{
+    color:var(--primary-color);
+}
+
+/* sections */
+
+.section h1{
+    text-align: center;
+    padding: 2rem;
+}
+
+.off-white{
+ background-color:var(--off-white) ;
 }
