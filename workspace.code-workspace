@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "../NeogCamp/student portfolio/neogcamp-live-lect3"
+		},
+		{
+			"name": "component-library",
+			"path": "."
+		},
+		{
+			"name": "Portfolio",
+			"path": "../NeogCamp/portfolio website/index.html /Portfolio"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "component-library"
+	}
+}
